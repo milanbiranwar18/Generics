@@ -77,6 +77,7 @@ namespace GenericsAssignment
             return firstValue;
         }
 
+
         public static string MaximumStringNumber(string firstValue, string secondValue, string thirdValue)
         {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0 ||
